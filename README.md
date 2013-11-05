@@ -3,7 +3,12 @@ jQuery-Once
 
 jQuery `.once()` method for adding behaviors or classes once per element.
 
-## Basic Usage
+## Install
+
+1. Download `jquery.once.js`
+2. Add `<script type="text/javascript" src="PATH/TO/jquery.once.js"></script>` somewhere after your jQuery script
+
+## Usage
 
 ```js
 $('.post').once().doSomethingOnceOnTheseElements()
