@@ -1,6 +1,5 @@
-
 (function($) {
-  return $.fn.once = function(identifier, callback) {
+  $.fn.once = function(identifier, callback) {
     var $elems, className;
     if (typeof identifier === 'function') {
       callback = identifier;

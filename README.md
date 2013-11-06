@@ -16,7 +16,7 @@ $('.post').once().doSomethingOnceOnTheseElements()
 
 ### How does it work?
 
-[Play with it in this jsFiddle](http://jsfiddle.net/yossishasho/93TyH/)
+[Play with it in this jsFiddle](http://jsfiddle.net/yossishasho/93TyH/2/)
 
 #### Example: Single Element
 
