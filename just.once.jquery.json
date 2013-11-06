@@ -4,14 +4,11 @@
     "description": ".once() method for adding behaviors or classes once.",
     "keywords": [
         "once",
-        "selectors",
-        "manipulation",
-        "transformations",
+        "selector",
         "callback",
         "map",
         "jquery",
-        "input",
-        "tag"
+        "input"
     ],
     "version": "0.0.6",
     "author": {
