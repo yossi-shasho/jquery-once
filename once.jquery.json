@@ -1,6 +1,6 @@
 {
-    "name": "once",
-    "title": "jQuery Once",
+    "name": "just.once",
+    "title": "jQuery Just Once",
     "description": ".once() method for adding behaviors or classes once.",
     "keywords": [
         "once",
@@ -11,7 +11,7 @@
         "input",
         "tag"
     ],
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": {
         "name": "Yossi Shasho",
         "url": "https://github.com/yossi-shasho"
