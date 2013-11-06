@@ -27,7 +27,7 @@
     "bugs": "https://github.com/yossi-shasho/jquery-once/issues",
     "homepage": "https://github.com/yossi-shasho/jquery-once",
     "docs": "https://github.com/yossi-shasho/jquery-once",
-    "download": "https://raw.github.com/yossi-shasho/jquery-once/master/jquery.once.js",
+    "download": "https://github.com/yossi-shasho/jquery-once/archive/master.zip",
     "dependencies": {
         "jquery": ">=1.5"
     }
