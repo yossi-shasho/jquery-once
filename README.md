@@ -42,19 +42,19 @@ $('.post').once().highlight(); // highlights #post_4
 
 ### Custom Identifiers
 
-Provide a custom identifier for the `once` method, to perform different actions on the same elements, each action only once per element.
+Pass a string to the `once` method, to perform different actions on the same elements, each action only once per element.
 
 ```js
-$('.post').once('highlight').highlight() // Highlight all posts
-$('.post').once('highlight').highlight() // Does nothing
+$('.post').once('highlighted').highlight() // Highlight all posts
+$('.post').once('highlighted').highlight() // Does nothing
 
-$('.post').once('blink').blink() // Blinks all posts
-$('.post').once('blink').blink() // Does nothing
+$('.post').once('wasBlinked').blink() // Blinks all posts
+$('.post').once('wasBlinked').blink() // Does nothing
 ```
 
 ### Passing a Callback
 
-Pass a callback directly to the `once` method:
+Pass a callback directly to the `once` method, which will be called once per each element.
 
 ```js
 $('.post').once(function() {
