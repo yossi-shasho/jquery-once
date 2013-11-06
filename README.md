@@ -5,7 +5,7 @@ jQuery `.once()` method for adding behaviors or classes once per element.
 
 ## Install
 
-1. Download `jquery.once.js`
+1. Download [`jquery.once.js`](https://raw.github.com/yossi-shasho/jquery-once/master/jquery.once.js)
 2. Add `<script type="text/javascript" src="PATH/TO/jquery.once.js"></script>` somewhere after your jQuery script
 
 ## Usage
