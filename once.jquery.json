@@ -1,0 +1,32 @@
+{
+    "name": "once",
+    "title": "jQuery Once",
+    "description": ".once() method for adding behaviors or classes once.",
+    "keywords": [
+        "once",
+        "selectors",
+        "manipulation",
+        "transformations",
+        "jquery",
+        "input",
+        "tag"
+    ],
+    "version": "0.0.1",
+    "author": {
+        "name": "Yossi Shasho",
+        "url": "https://github.com/yossi-shasho"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/yossi-shasho/jquery-once/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/yossi-shasho/jquery-once/issues",
+    "homepage": "https://github.com/yossi-shasho/jquery-once",
+    "docs": "https://github.com/yossi-shasho/jquery-once",
+    "download": "https://raw.github.com/yossi-shasho/jquery-once/master/jquery.once.js",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}

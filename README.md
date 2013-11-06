@@ -16,6 +16,8 @@ $('.post').once().doSomethingOnceOnTheseElements()
 
 ### How does it work?
 
+[Play with it in this jsFiddle](http://jsfiddle.net/yossishasho/93TyH/)
+
 #### Example: Single Element
 
 ```js
@@ -40,7 +42,7 @@ $('.post').once().highlight(); // highlights #post_4
 
 ### Custom Identifiers
 
-You can also provide a custom identifier for the `once` method, to perform different actions on the same elements, each action only once per element.
+Provide a custom identifier for the `once` method, to perform different actions on the same elements, each action only once per element.
 
 ```js
 $('.post').once('highlight').highlight() // Highlight all posts
@@ -48,4 +50,20 @@ $('.post').once('highlight').highlight() // Does nothing
 
 $('.post').once('blink').blink() // Blinks all posts
 $('.post').once('blink').blink() // Does nothing
+```
+
+### Passing a Callback
+
+Pass a callback directly to the `once` method:
+
+```js
+$('.post').once(function() {
+	$(this).doSomethingWithEachPostOnce();
+});
+
+
+// with a custom identifier
+$('.post').once('highlight', function() {
+	$(this).highlight();
+});
 ```
