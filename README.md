@@ -11,7 +11,10 @@ jQuery `.once()` method for adding behaviors or classes once per element.
 ## Usage
 
 ```js
-$('.post').once().doSomethingOnceOnTheseElements()
+$('.post').once().highlight(); // highlghts all posts that haven't been highlighted yet
+$('.post').once().highlight(); // does nothing
+addNewPost();
+$('.post').once().highlight(); // highlights only the newly added post
 ```
 
 ### How does it work?
