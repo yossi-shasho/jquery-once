@@ -9,7 +9,11 @@ jQuery `.once()` method for adding behaviors or classes once per element.
 2. Add `<script type="text/javascript" src="PATH/TO/jquery.once.js"></script>` somewhere after your jQuery script
 
 ## Usage
-
+### Basic
+```js
+$('.post').once().doSomethingOnAllPostsOnce();
+```
+### Common
 ```js
 $('.post').once().highlight(); // highlghts all posts that haven't been highlighted yet
 $('.post').once().highlight(); // does nothing
